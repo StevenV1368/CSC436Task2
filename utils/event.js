@@ -10,13 +10,12 @@ const eventHandler = () => {
     const mulResult = document.getElementById('mulResult');
 
     const updateDomWithAddedNumbers = () => {
-        result.innerHTML = add(number1.value,number2.value) + ' (Added Result)';
-        // add(number1.value,number2.value);
+        result.innerHTML = `Added Result is: ${add(number1.value,number2.value)}`;
+        
     }
 
     const updateDomWithMultipliedNumbers = () => {
-        result.innerHTML = mul(number1.value,number2.value) + ' (Multiplied Result)';
-        // mul(number1.value,number2.value);
+        result.innerHTML = `Multiplied Result is: ${mul(number1.value,number2.value)}`;
     }
 
 
